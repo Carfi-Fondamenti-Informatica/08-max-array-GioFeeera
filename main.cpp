@@ -10,13 +10,14 @@ int main() {
     for (int i = 0; i < n; i++) {
         cin >> numero [i];
     }
-    for (int i = 0; i < n; ++i) {
+    for (int i = 0; i < n; i++) {
         float mag= maggiore(numero[i], numero[i-1]);
         if (n>x){
             x=n;
         }
+    }    
         cout << x;
-    }
+    
 
     return 0;
 }
